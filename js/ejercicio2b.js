@@ -54,8 +54,6 @@ function stringAndPad() {
     }
   }
 
-  console.log(result);
-
   //--------------------------------1. 1st conversion (3 strings)
 
   let arrOfStr = result.map((arr) => {
@@ -64,7 +62,7 @@ function stringAndPad() {
 
   console.log(arrOfStr);
 
-  //--------------------------------2. 2nd conversion (9 string)
+  //--------------------------------2. 2nd conversion (9 strings)
 
   const arrayOfStringNumbers = arrOfStr.flatMap((arr) => arr.split(","));
   console.log(arrayOfStringNumbers);
