@@ -5,7 +5,9 @@
 }
 
 body {
-	margin: auto;
+	margin: 2em 2em;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: ghostwhite;
 }
 
 button {
@@ -20,4 +22,12 @@ button {
 	box-shadow: 0 0 0.1em #999;
 	outline: none;
 	margin: 0.2em 0.3em;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+li {
+	list-style-type: none;
 }
