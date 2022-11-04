@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 2em 1em;
+    background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 1em;
+    color: midnightblue;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
+button {
+	border: none;
+	border-radius: 0.5em;
+	width: 6em;
+	padding: 1em 0em;
+	font-size: 1em;
+	cursor: pointer;
+	color: white;
+	background-color: #2196f3;
+	box-shadow: 0 0 0.1em #999;
+	outline: none;
+	margin: 0.2em 0.3em;
+}
