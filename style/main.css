@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 2em 2em;
+	background-color: ghostwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+li {
+    list-style-type: none;
+	margin-bottom: 0.5em;
+}
